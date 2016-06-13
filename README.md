@@ -2,25 +2,26 @@
 ====================================
 **PiSkate** – Raspberry Pi controlled electric skateboard 
 
+
 This is an overview of the software/hardware for the PiSkate project
 
 
 ## Parts
 
+This parts list is a guide only! Feel free to use other components if they fit your needs better.
+
 **Electronic Parts:**
 
 | Part              | Link                                                                                                              |Cost AUD   |
 | -------------     |-------------                                                                                                      | -----:    |
-| Motor             |http://www.hobbyking.com/hobbyking/store/__18184__Turnigy_Aerodrive_SK3_6374_149kv_Brushless_Outrunner_Motor.html  |$109       | 
-| VESC              |http://vedder.se/2015/01/vesc-open-source-esc/                                                                     |$100       |
-| ESC*              |http://www.hobbyking.com/hobbyking/store/__2165__TURNIGY_Plush_40amp_Speed_Controller_w_BEC.html                   |$30        |
-| Pi 3              |http://au.element14.com/raspberry-pi/raspberrypi-modb-1gb/raspberry-pi-3-model-b/dp/2525226                        |$56        |
+|Motor              |http://www.hobbyking.com/hobbyking/store/__18184__Turnigy_Aerodrive_SK3_6374_149kv_Brushless_Outrunner_Motor.html  |$109       | 
+|Recommended ESC    |http://tinyurl.com/z2v9pqk                                                                                         |$120*      |
+|Pi 3               |http://au.element14.com/raspberry-pi/raspberrypi-modb-1gb/raspberry-pi-3-model-b/dp/2525226                        |$56        |
 |2 x LiPo's         |http://www.hobbyking.com/hobbyking/store/__7635__ZIPPY_Flightmax_2200mAh_3S1P_30C.html                             |2 x $18.37 | 
 |Parallel Harness   |http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=10265                                           |$3.16      |
 |Wii Remote         |You should be able to get these used on ebay for under $30                                                         |<$30       |
 |**Total**          |                                                                                                                   |**$330**   |
-**Note:** My board at the moment is not using the VESC but instead a makeshift 40AMP ESC this limits the speed and power of the motor.
-
+**Note:** The popular VESC won't work with the current program as it does not have BEC so it is a little bit different wiring wise and would require a small modification to the program and layout of the wiring. 
 
 **Hardware Parts:**
 
