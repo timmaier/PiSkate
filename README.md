@@ -2,8 +2,13 @@
 ====================================
 **PiSkate** – Raspberry Pi controlled electric skateboard 
 
+**NOTE:** I used the Raspberry Pi as part of a University project as it was a prerequisite and had to be used in each project. I would **NOT** recommend using a Raspberry Pi as the main communications device as it is unnecessary. I have switched to using a HK-GT2B remote and receiver setup and modded it using the following 
+https://hobbyking.com/en_us/hobbykingr-tmhk-gt2b-3ch-2-4ghz-transmitter-and-receiver-w-rechargable-li-ion-battery-1.html
+https://www.youtube.com/watch?v=G_xoGiUinbY
 
-This is an overview of the software/hardware for the PiSkate project
+I still plan to incorporate the Pi to maybe control RGB lighting and do other “cool” things possibly send the current boards speed or battery voltage to a display on the remote. 
+
+This is an overview of the software/hardware I used for my PiSkate project.
 
 
 ## Parts
